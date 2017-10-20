@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="win.zwping.mediapayerutils.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <win.zwping.mediapayerutils.view.VoiceView
+            android:id="@+id/voice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <win.zwping.mediapayerutils.view.VoiceView
+            android:id="@+id/voice1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <win.zwping.mediapayerutils.view.VoiceView
+            android:id="@+id/voice2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <win.zwping.mediapayerutils.view.VoiceView
+            android:id="@+id/voice3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <win.zwping.mediapayerutils.view.VoiceView
+            android:id="@+id/voice4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <win.zwping.mediapayerutils.view.VoiceView
+            android:id="@+id/voice5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <win.zwping.mediapayerutils.view.VoiceView
+            android:id="@+id/voice6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <win.zwping.mediapayerutils.view.VoiceView
+            android:id="@+id/voice7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <win.zwping.mediapayerutils.view.VoiceView
+            android:id="@+id/voice8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <win.zwping.mediapayerutils.view.VoiceView
+            android:id="@+id/voice9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <win.zwping.mediapayerutils.view.VoiceView
+            android:id="@+id/voice10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <win.zwping.mediapayerutils.view.VoiceView
+            android:id="@+id/voice11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <win.zwping.mediapayerutils.view.VoiceView
+            android:id="@+id/voice12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <win.zwping.mediapayerutils.view.VoiceView
+            android:id="@+id/voice13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/all_stop"
+            android:text="一键停止播放"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</ScrollView>
