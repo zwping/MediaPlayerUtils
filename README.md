@@ -1,7 +1,7 @@
 # MediaPlayerUtils
 基于列表音频播放对mediaPlayer封装的依赖
 
-[![JtiPack](https://jitpack.io/v/zwping/MediaPlayerUtils.svg)](https://jitpack.io/#win.zwping/MediaPlayerUtils/)
+[![JtiPack](https://jitpack.io/v/win.zwping/MediaPlayerUtils.svg)](https://jitpack.io/#win.zwping/MediaPlayerUtils)
 [![JavaDoc](https://img.shields.io/badge/JavaDoc-Refer-orange.svg)](https://jitpack.io/com/github/zwping/MediaPlayer/v1.0/javadoc/)
 [![Aar](https://img.shields.io/badge/aar-24kb-brightgreen.svg)](https://github.com/zwping/MediaPlayer/blob/master/MediaPlayer-lib-v1.0.aar?raw=true)
 ![Api](https://img.shields.io/badge/API-16%2B-brightgreen.svg)
