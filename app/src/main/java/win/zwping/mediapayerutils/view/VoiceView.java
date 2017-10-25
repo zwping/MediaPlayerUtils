@@ -174,7 +174,6 @@ public class VoiceView extends RelativeLayout implements View.OnClickListener, M
     protected void onDetachedFromWindow() {
         super.onDetachedFromWindow();
         mediaPlayer.pause();
-        Toast.makeText(getContext(), "123123123", Toast.LENGTH_SHORT).show();
     }
 
     private String long2String(long time) {

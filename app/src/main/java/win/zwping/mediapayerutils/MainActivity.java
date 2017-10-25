@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.all_stop).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MpListUtils.getInstance().pauseAllMp();
+                MpListUtils.getInstance().stopAllMp();
             }
         });
     }
