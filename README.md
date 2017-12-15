@@ -9,4 +9,6 @@
 [![License](https://camo.githubusercontent.com/fc8e0c80ec74887c0cbc124b5e8cec1009e6f596/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d417061636865253230322e302d626c75652e7376673f7374796c653d666c6174)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 ### 项目描述
-> 基于android.media.MediaPlayer方法进行提取封装，助于对mediaPlayer类快速了解，并封装了mpListUtil，适用于列表播放音视频
+> 基于android.media.MediaPlayer方法进行提取封装，助于对mediaPlayer类快速了解
+> 
+> 封装mpListUtil，适用于列表播放音视频
