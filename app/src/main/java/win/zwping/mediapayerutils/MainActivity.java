@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         VoiceView voice12 = (VoiceView) findViewById(R.id.voice12);
         VoiceView voice13 = (VoiceView) findViewById(R.id.voice13);
         voice.setData("http://video.jiecao.fm/11/18/xu/%E6%91%87%E5%A4%B4.mp4");
-        voice1.setData("http://other.web.rh01.sycdn.kuwo.cn/res213ource/n1/82/32/217069489.mp3");
+        voice1.setData("http://dtznpic.oss-cn-shenzhen.aliyuncs.com/audio/0-1512631873453Audio.amr");
         voice2.setData("123http://2449.vod.myqcloud.com/2449_22ca37a6ea9011e5acaaf51d105342e3.f20.mp4");
         voice3.setData("http://other.web.rh01.sycdn.kuwo.cn/resource/n1/82/32/217069489.mp3");
         voice4.setData("http://video.jiecao.fm/11/18/xu/%E6%91%87%E5%A4%B4.mp4");
@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 MpListUtils.getInstance().stopAllMp();
+                MpListUtils.getInstance().pauseAllMp();
             }
         });
     }
