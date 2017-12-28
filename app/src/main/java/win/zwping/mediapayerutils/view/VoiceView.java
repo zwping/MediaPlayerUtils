@@ -3,6 +3,7 @@ package win.zwping.mediapayerutils.view;
 import android.content.Context;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
+import android.net.Uri;
 import android.os.Build;
 import android.support.annotation.RequiresApi;
 import android.support.v7.widget.AppCompatSeekBar;
@@ -14,7 +15,11 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
+
 import win.zwping.mediapayerutils.R;
+import win.zwping.mediaplayer_lib.EncodeUtils;
 import win.zwping.mediaplayer_lib.MediaPlayerUtils;
 import win.zwping.mediaplayer_lib.MpListUtils;
 
@@ -102,6 +107,7 @@ public class VoiceView extends RelativeLayout implements View.OnClickListener, M
         //这里没有使用自动播放，如果需要自动播放的话mediaPlayer也需要listUtils统一管理
         mediaPlayer.setData(url, AudioManager.STREAM_MUSIC);
     }
+
 
     @Override
     public void onDuration(int duration) {
